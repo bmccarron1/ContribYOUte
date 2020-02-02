@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4CAF50"
+    android:backgroundTint="#AAE0EB"
+    android:foregroundTint="#2EDF95"
+    tools:context=".OrgSurveyOne">
+
+    <CheckBox
+        android:id="@+id/EducationBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Education"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00C41010"
+        android:text="Which of these catergrories does your organization fall under?"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/EnviromentalBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviromental"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EducationBox" />
+
+    <CheckBox
+        android:id="@+id/SoupBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Soup Kitchen/Food Pantry"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EnviromentalBox" />
+
+    <CheckBox
+        android:id="@+id/ShelterBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shelter"
+        app:layout_constraintTop_toBottomOf="@+id/SoupBox"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <CheckBox
+        android:id="@+id/PoliticalBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Political/Activism"
+        app:layout_constraintTop_toBottomOf="@+id/ShelterBox"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <CheckBox
+        android:id="@+id/ReliefBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Relief Foundation"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PoliticalBox" />
+
+    <CheckBox
+        android:id="@+id/ResourceBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resource Collectoion"
+        app:layout_constraintTop_toBottomOf="@+id/ReliefBox"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/NextButton"
+        android:layout_width="117dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="#13D179"
+        android:text="NEXT PAGE"
+        android:textColorHint="#9C27B0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ResourceBox" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

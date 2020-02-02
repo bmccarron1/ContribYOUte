@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TestFinalCharity</string>
+    <string name="title_activity_organization_survey">OrganizationSurvey</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_page_two_survey">PageTwoSurvey</string>
+    <string name="title_activity_home_screen">HomeScreen</string>
+    <string name="title_activity_volunteer_survey">VolunteerSurvey</string>
+    <string name="title_activity_org_survey_two">OrgSurveyTwo</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="title_activity_pairing_page">PairingPage</string>
+</resources>
